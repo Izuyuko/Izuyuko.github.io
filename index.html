@@ -12,38 +12,53 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      border-top: 6px solid #000; /* Full-width top border */
+      border-top: 6px solid #000;
+      background-color: #f5f5f5;
     }
 
     .container {
       display: flex;
       min-height: 100vh;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
     }
 
     .left-column {
-      width: 25%;
+      width: 35%;
       background-color: #96634d;
       padding: 20px;
       color: #000;
     }
 
     .right-column {
-      width: 75%;
+      width: 65%;
       background-color: #f3cebf;
       padding: 20px;
       color: #000;
     }
 
-    .title-container {
+    .image-center {
       display: flex;
-      align-items: center;
+      justify-content: center;
       margin-bottom: 20px;
     }
 
-    .title-container img {
-      height: 150px;
-      margin-right: 20px;
-      border-radius: 10px;
+    .title-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .title-container h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+
+    .title-container h2 {
+      font-size: 20px;
+      font-style: italic;
+      margin: 5px 0;
     }
 
     h1 {
@@ -83,17 +98,17 @@
 
     <!-- LEFT COLUMN -->
     <div class="left-column">
-      <img src="Picture1.jpg" alt="Picture1" width="150">
+      <div class="image-center">
+        <img src="Picture1.jpg" alt="Picture1" width="150">
+      </div>
       <div class="title-container">
-        <div>
-          <h1><u><i>Jomer Andrei C. Junio</i></u></h1>
-          <h2>Commissioner</h2>
-        </div>
+        <h1><u><i>Jomer Andrei C. Junio</i></u></h1>
+        <h2>Commissioner</h2>
       </div>
 
       <hr>
 
-      <h2>About me:</h2>
+      <h2>About Me</h2>
       <ul>
         <li>A freelance commissioner that does traditional & digital artwork, video editing, posters, and logos.</li>
       </ul>
@@ -124,7 +139,7 @@
       <h3>Work Experience</h3>
       <p><b>Work Immersion</b></p>
       <ul>
-        <li>Completed 80 Hours work immersion, worked in IT, Cashier, and Accounting departments</li>
+        <li>Completed 80 Hours work immersion, worked in IT, Cashier, and Accounting departments.</li>
       </ul>
 
       <p><b>Freelance Commission</b></p>
@@ -157,7 +172,7 @@
         <li>Programming: C++, HTML</li>
       </ul>
     </div>
-    
+
   </div>
 
 </body>
